@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mooooooove Over Movie Seat Finder</title>
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300" rel="stylesheet">
+    </head>
+    <body>
+    <div class="movieSelection">
+    <h2>Mooooove Over Movie Seat Selector </h2>
+        <div class="movies">
+        <img src="http://www.people.com.cn/mediafile/pic/20190307/13/863538477864247437.jpg" class="moviepic">
+        <img src="https://i.jeded.com/i/oolong-courtyard-kung-fu-school.122531.jpg" class="moviepic2">
+            
+        </div>
+        
+        <div class="reviews">
+            <p>Click the movie to read its reviews!</p>
+            <div id="movieReviews"></div>
+        </div>
+    </div>
+    
+    <div class="ticketSelection">
+        <h2>Select your tickets:</h2>
+        <p>Enter the number of tickets you would like to purchase.<br>Child tickets are $8 and adult tickets are $12.</p>
+        <div class="tickets">
+            <div class="ticket">
+                <p>Child:</p><input type="number" class="ticketInput" id="numberChild" value="0">
+            </div>
+            <div class="ticket">
+                <p>Adult:</p><input type="number" class="ticketInput"  id="numberAdult" value="0">
+            </div>
+        </div>
+    </div>
+    
+    <div class="checkout">
+        <h2>Checkout:</h2>
+        <p>Ready to purchase your tickets?</p>
+        <button id="calculateTotal">Calculate total</button>
+        <div id="totalCost"></div>
+    </div>
+    
+    
+    </body>
+</html>
